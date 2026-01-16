@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap"
+         rel="stylesheet"
+      />
+      <link rel="stylesheet" href="styles/general.css" />
+      <link rel="stylesheet" href="styles/style.css" />
+      <title>Hive</title>
+   </head>
+   <body>
+      <header class="header">
+         <a href="#">
+            <img src="img/logo.png" alt="Hive Logo" class="logo" />
+         </a>
+         <nav class="main-nav">
+            <ul class="main-nav__list">
+               <li><a href="#features" class="main-nav__link">Features</a></li>
+               <li><a href="#about" class="main-nav__link">About</a></li>
+               <li><a href="#customers" class="main-nav__link">Customers</a></li>
+               <li><a href="#cta" class="main-nav__link main-nav__link--cta">Get in touch</a></li>
+            </ul>
+         </nav>
+      </header>
+
+      <main>
+         <section class="section-hero">
+            <div class="hero__img-box">
+               <img class="hero__img" src="img/hand.png" alt="Hand holding Hive E-wallet" />
+            </div>
+
+            <div class="hero__text-box">
+               <h1 class="heading-primary">Your E-wallet.<br />Your exchange.<br />Your network.</h1>
+               <p class="hero__description">
+                  Seamless worldwide trading platform combined with social interaction and marketplace convenience,
+                  designed for businesses and day use in trade and social networking.
+               </p>
+               <a href="#cta" class="btn btn--dark margin-right-sm">Join the Hive</a
+               ><a href="#about" class="btn btn--ghost">Learn more &darr;</a>
+            </div>
+         </section>
+
+         <section class="section-features" id="features">
+            <div class="container">
+               <span class="subheading">Features</span>
+               <h2 class="heading-secondary margin-bottom-md">From payments to trading, all in one place</h2>
+               <p class="features__description">
+                  Seamless worldwide trading platform combined with social interaction and marketplace convenience,
+                  designed for businesses and day use in trade and social networking.
+               </p>
+               <div class="grid grid--2-cols grid--align-start">
+                  <div class="features">
+                     <figure class="feature">
+                        <svg
+                           xmlns="http://www.w3.org/2000/svg"
+                           fill="none"
+                           viewBox="0 0 24 24"
+                           stroke-width="1.5"
+                           stroke="currentColor"
+                           class="feature__icon"
+                        >
+                           <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="M21 12a2.25 2.25 0 0 0-2.25-2.25H15a3 3 0 1 1-6 0H5.25A2.25 2.25 0 0 0 3 12m18 0v6a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 18v-6m18 0V9M3 12V9m18 0a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 9m18 0V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v3"
+                           />
+                        </svg>
+
+                        <p class="feature__name">E-Wallet</p>
+                        <figcaption class="feature__description">
+                           Access your bank from anywhere in the world.
+                        </figcaption>
+                     </figure>
+
+                     <figure class="feature">
+                        <svg
+                           xmlns="http://www.w3.org/2000/svg"
+                           fill="none"
+                           viewBox="0 0 24 24"
+                           stroke-width="1.5"
+                           stroke="currentColor"
+                           class="feature__icon"
+                        >
+                           <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"
+                           />
+                        </svg>
+
+                        <p class="feature__name">Money Transfer</p>
+                        <figcaption class="feature__description">
+                           Transfer money worldwide using chat, connect, and scan.
+                        </figcaption>
+                     </figure>
+
+                     <figure class="feature">
+                        <svg
+                           xmlns="http://www.w3.org/2000/svg"
+                           fill="none"
+                           viewBox="0 0 24 24"
+                           stroke-width="1.5"
+                           stroke="currentColor"
+                           class="feature__icon"
+                        >
+                           <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                           />
+                        </svg>
+
+                        <p class="feature__name">Marketplace</p>
+                        <figcaption class="feature__description">
+                           Trade on the marketplace and invest in your future.
+                        </figcaption>
+                     </figure>
+
+                     <figure class="feature">
+                        <svg
+                           xmlns="http://www.w3.org/2000/svg"
+                           fill="none"
+                           viewBox="0 0 24 24"
+                           stroke-width="1.5"
+                           stroke="currentColor"
+                           class="feature__icon"
+                        >
+                           <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="M14.25 7.756a4.5 4.5 0 1 0 0 8.488M7.5 10.5h5.25m-5.25 3h5.25M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                           />
+                        </svg>
+
+                        <p class="feature__name">Currency Exchange</p>
+                        <figcaption class="feature__description">
+                           Exchange currency, send and trade in a worldwide network.
+                        </figcaption>
+                     </figure>
+                  </div>
+                  <img
+                     src="img/guywithchain.png"
+                     alt="Man holding Hive E-wallet keychain by his finger"
+                     class="features__img"
+                  />
+               </div>
+            </div>
+         </section>
+
+         <section class="section-keychain" id="about">
+            <div class="container">
+               <span class="subheading">Hive keychain</span>
+               <h2 class="heading-secondary">Carry your wallet <span class="highlight">with style</span></h2>
+               <div class="grid grid--2-cols">
+                  <figure
+                     class="keychain__img-box"
+                     role="img"
+                     aria-label="Two Hive E-wallet keychains, one black and another silver"
+                  >
+                     <img src="img/keychain_silver.png" alt="" class="keychain__img-1" />
+                     <img src="img/keychain_black.png" alt="" class="keychain__img-2" />
+                  </figure>
+                  <div class="keychain__features">
+                     <div class="heading-tertiary">
+                        Scannable keychains allow for a secure and easy to use money transfer capability and more
+                     </div>
+                     <ul class="list">
+                        <li class="list-item">
+                           <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke-width="1.5"
+                              stroke="currentColor"
+                              class="list-icon"
+                           >
+                              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                           </svg>
+                           Chrome finish for authentic look
+                        </li>
+                        <li class="list-item">
+                           <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke-width="1.5"
+                              stroke="currentColor"
+                              class="list-icon"
+                           >
+                              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                           </svg>
+                           Unique QR code indentifier
+                        </li>
+                        <li class="list-item">
+                           <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke-width="1.5"
+                              stroke="currentColor"
+                              class="list-icon"
+                           >
+                              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                           </svg>
+                           Can hold up to two cards for use
+                        </li>
+                        <li class="list-item">
+                           <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke-width="1.5"
+                              stroke="currentColor"
+                              class="list-icon"
+                           >
+                              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                           </svg>
+                           NFC technology to pay for products
+                        </li>
+                        <li class="list-item">
+                           <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke-width="1.5"
+                              stroke="currentColor"
+                              class="list-icon"
+                           >
+                              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                           </svg>
+                           Features RFID blocking technology for safeguarding
+                        </li>
+                        <li class="list-item">
+                           <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke-width="1.5"
+                              stroke="currentColor"
+                              class="list-icon"
+                           >
+                              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                           </svg>
+                           Digital screen to check your balance
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="section-app">
+            <div class="container">
+               <span class="subheading">App</span>
+               <h2 class="heading-secondary">All-in-one payment and commerce ecosystem</h2>
+
+               <div class="grid grid--2-cols">
+                  <div class="app__text-box">
+                     <div class="heading-tertiary">Allows users to</div>
+                     <ul class="list">
+                        <li class="list-item">
+                           <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke-width="1.5"
+                              stroke="currentColor"
+                              class="list-icon"
+                           >
+                              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                           </svg>
+                           Store and spend money digitally (e-wallet)
+                        </li>
+                        <li class="list-item">
+                           <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke-width="1.5"
+                              stroke="currentColor"
+                              class="list-icon"
+                           >
+                              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                           </svg>
+                           Pay instantly via in-app chat
+                        </li>
+                        <li class="list-item">
+                           <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke-width="1.5"
+                              stroke="currentColor"
+                              class="list-icon"
+                           >
+                              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                           </svg>
+                           Buy and sell goods/services in a built-in marketplace
+                        </li>
+                        <li class="list-item">
+                           <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke-width="1.5"
+                              stroke="currentColor"
+                              class="list-icon"
+                           >
+                              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                           </svg>
+                           Exchange currencies seamlessly (local & cross- border)
+                        </li>
+                     </ul>
+                  </div>
+                  <img src="img/qweeqwe.png" alt="" class="app__img" />
+               </div>
+            </div>
+         </section>
+
+         <section class="section-customers" id="customers" >
+            <div class="container">
+               <h2 class="heading-secondary text-center">Our customers</h2>
+
+               <div class="customers__container">
+                  <img
+                     class="customers__img"
+                     src="img/555.png"
+                     alt="A person's figure made of digital connections akin to atoms"
+                  />
+                  <ul class="customers__list">
+                     <li class="customers__list-item">Digital nomads</li>
+                     <li class="customers__list-item">Young adults</li>
+                     <li class="customers__list-item">Travelers & Expats</li>
+                     <li class="customers__list-item">Business owners</li>
+                     <li class="customers__list-item">Shoppers</li>
+                     <li class="customers__list-item">Security conscious users</li>
+                     <li class="customers__list-item">Freelancers</li>
+                  </ul>
+               </div>
+            </div>
+         </section>
+
+         <section class="section-cta" id="cta">
+            <div class="container">
+               <div class="cta">
+                  <div class="cta__text-box">
+                     <h2 class="heading-secondary margin-bottom-md">
+                        Join the pioneers of <img class="cta__logo" src="img/logo.png" alt="Hive" />
+                     </h2>
+                     <p class="cta__text">
+                        Be one of the first to invest in the future. According to available data, the average profit
+                        margin for keychain businesses is around 25% Keychain e-wallets offer a unique opportunity for
+                        businesses to tap into the growing demand for digital payments and increase their revenue
+                        streams.
+                     </p>
+
+                     <form class="cta__form">
+                        <label for="email" class="cta__label">Email</label>
+                        <input type="email" name="email" id="email" class="input" placeholder="johndoe@example.com" required>
+                        <button class="btn btn--dark btn--cta">Join the Hive</button>
+                     </form>
+                  </div>
+                  <div class="cta__img-box" role="img" aria-label="Hive E-wallet keychain lying on a table"></div>
+               </div>
+            </div>
+         </section>
+
+         <footer class="footer">
+            <p class="copyright">Copyright &copy; 2020 by Hive, Inc. All rights reserved.</p>
+         </footer>
+      </main>
+   </body>
+</html>
