@@ -52,12 +52,15 @@ Default: 9px
 html {
    font-size: 62.5%;
    scroll-behavior: smooth;
+   overflow-x: hidden;
 }
 
 body {
    font-family: "Inter", sans-serif;
    color: #000;
    line-height: 1;
+   position: relative;
+   overflow-x: hidden;
 }
 
 img {
@@ -161,7 +164,7 @@ img {
 .btn--ghost:hover,
 .btn--ghost:active,
 .main-nav__link:hover,
-.main-nav__link:hover {
+.main-nav__link:active {
    background-color: #e6c924;
 }
 

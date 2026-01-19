@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
    <head>
       <meta charset="UTF-8" />
@@ -11,6 +11,8 @@
       />
       <link rel="stylesheet" href="styles/general.css" />
       <link rel="stylesheet" href="styles/style.css" />
+      <link rel="stylesheet" href="styles/queries.css" />
+      <script src="script.js" defer></script>
       <title>Hive</title>
    </head>
    <body>
@@ -26,12 +28,38 @@
                <li><a href="#cta" class="main-nav__link main-nav__link--cta">Get in touch</a></li>
             </ul>
          </nav>
+
+         <button class="mobile-nav">
+            <svg
+               xmlns="http://www.w3.org/2000/svg"
+               fill="none"
+               viewBox="0 0 24 24"
+               stroke-width="1.5"
+               stroke="currentColor"
+               class="mobile-nav__icon mobile-nav__icon--open"
+            >
+               <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+            <svg
+               xmlns="http://www.w3.org/2000/svg"
+               fill="none"
+               viewBox="0 0 24 24"
+               stroke-width="1.5"
+               stroke="currentColor"
+               class="mobile-nav__icon mobile-nav__icon--close"
+            >
+               <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+            </svg>
+         </button>
       </header>
 
       <main>
          <section class="section-hero">
             <div class="hero__img-box">
                <img class="hero__img" src="img/hand.png" alt="Hand holding Hive E-wallet" />
+               <!-- <div class="carousel__img carousel__be" role="img" aria-label="BE">BE.</div>
+               <img class="carousel__img" src="img/hero3.png" alt="Truck with Hive logo on it" />
+               <img class="carousel__img" src="img/hero4.png" alt="People walking in a row looking at their phone" /> -->
             </div>
 
             <div class="hero__text-box">
@@ -40,8 +68,10 @@
                   Seamless worldwide trading platform combined with social interaction and marketplace convenience,
                   designed for businesses and day use in trade and social networking.
                </p>
-               <a href="#cta" class="btn btn--dark margin-right-sm">Join the Hive</a
-               ><a href="#about" class="btn btn--ghost">Learn more &darr;</a>
+               <div class="hero__btns">
+                  <a href="#cta" class="btn btn--dark">Join the Hive</a
+                  ><a href="#features" class="btn btn--ghost">Learn more &darr;</a>
+               </div>
             </div>
          </section>
 
@@ -380,7 +410,7 @@
          </section>
 
          <footer class="footer">
-            <p class="copyright">Copyright &copy; 2020 by Hive, Inc. All rights reserved.</p>
+            <p class="copyright">Copyright &copy; <span class="year">2020</span> by Hive, Inc. All rights reserved.</p>
          </footer>
       </main>
    </body>
