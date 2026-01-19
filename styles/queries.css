@@ -279,6 +279,10 @@
       margin-bottom: 4.8rem;
    }
 
+   .section-hero,.section-features,.section-keychain,.section-cta{
+      padding-bottom: 4.8rem;
+   }
+
    .hero__img-box {
       width: 85%;
    }
