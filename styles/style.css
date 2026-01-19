@@ -13,6 +13,7 @@
 
 .logo {
    height: 4.2rem;
+   width: auto;
 }
 
 .main-nav__list {
@@ -42,6 +43,7 @@
    cursor: pointer;
    z-index: 9999;
    transition: 0.4s all;
+   color: #000;
 }
 
 .mobile-nav__icon {
@@ -67,7 +69,7 @@
 }
 
 .sticky .bg-white {
-   background-color: #fff;
+   background-color: rgba(255, 255, 255, 0.541);
 }
 
 .sticky .section-hero {
