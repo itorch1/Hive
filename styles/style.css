@@ -353,7 +353,7 @@
 .cta__img-box {
    background:
       linear-gradient(to bottom right, rgba(255, 223, 40, 0.35), rgba(255, 223, 40, 0.35)),
-      url("../img/cta-keychain.png");
+      url("../img/cta-keychain.webp");
    background-size: cover;
    background-position: center;
 }
