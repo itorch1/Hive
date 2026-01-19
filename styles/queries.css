@@ -5,10 +5,6 @@
    .heading-primary {
       font-size: 6.2rem;
    }
-
-   .hero__description {
-      font-size: 1.8rem;
-   }
 }
 
 /* *************** */
@@ -304,6 +300,10 @@
       width: 60%;
       justify-self: start;
       grid-row: 1;
+   }
+
+   .customers__list {
+      padding: 4.8rem 0;
    }
 
    .cta__form {
