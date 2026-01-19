@@ -27,7 +27,7 @@ const obs = new IntersectionObserver(
       root: null,
       threshold: 0,
       rootMargin: "-80px",
-   }
+   },
 );
 obs.observe(heroSectionEl);
 
@@ -35,3 +35,20 @@ obs.observe(heroSectionEl);
 const yearEl = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
 yearEl.textContent = currentYear;
+
+// Add class for navigation background when reaching customers section
+const customersSectionEl = document.querySelector(".section-customers");
+
+const obs2 = new IntersectionObserver(
+   (entries) => {
+      console.log('test')
+      const ent = entries[0];
+      if (ent.isIntersecting) headerEl.classList.add("bg-white");
+      if (!ent.isIntersecting) headerEl.classList.remove("bg-white");
+   },
+   {
+      root: null,
+      threshold: 0,
+   },
+);
+obs2.observe(customersSectionEl);
