@@ -205,7 +205,7 @@
    }
 
    .features {
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr 1fr;
       gap: 0.4rem;
    }
 
@@ -293,6 +293,7 @@
    }
 
    .features {
+      grid-template-columns: 1fr;
       margin-bottom: 4.8rem;
    }
 

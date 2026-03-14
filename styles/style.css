@@ -109,7 +109,12 @@
 
 .section-features {
    padding: 12.8rem 0 9.6rem;
-   background: linear-gradient(to bottom, #ffdf28 0%, #fff 35%, #fff 100%);
+   background: linear-gradient(to bottom, #ffdf28 0%, #000 35%, #000 100%);
+   color: #fff;
+}
+
+.subheading--features {
+   color: #fff9d4;
 }
 
 .features__description {
@@ -120,12 +125,13 @@
 
 .features {
    display: grid;
-   grid-template-columns: 1fr 1fr;
+   grid-template-columns: repeat(4, 1fr);
    gap: 4.8rem;
 }
 
 .feature {
    padding: 2.4rem;
+   color: #ffdf28;
 }
 
 .feature__icon {
@@ -133,8 +139,8 @@
    height: 6.4rem;
    width: 6.4rem;
    padding: 1.6rem;
-   stroke: #ffdf28;
-   background-color: #332d08;
+   stroke: #332d08;
+   background-color: #ffdf28;
    border-radius: 50%;
    margin-bottom: 3.2rem;
 }
